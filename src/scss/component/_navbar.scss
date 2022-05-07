@@ -1,0 +1,27 @@
+.navbar {
+  width: 15rem;
+  height: 100vh;
+  color: #fff;
+  background-color: #191718;
+  box-shadow: 8px -2px 12px 0px rgba(0, 0, 0, 0.3);
+
+  &__el {
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    height: 4.4rem;
+    padding: 1.2rem 1.5rem;
+
+    p {
+      display: inline-block;
+    }
+
+    svg {
+      margin-right: 3rem;
+      width: 2.4rem;
+    }
+  }
+  &__el:hover {
+    background-color: #5c5c5c;
+  }
+}
