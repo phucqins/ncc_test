@@ -11,27 +11,12 @@ const HomePage = () => {
       <div className="home-page__body">
         <Navbar />
         <div className="home-page__content">
-          <div className="home-page__logo">
-            <img src={logo} alt="" />
-          </div>
-          <div className="home-page__details">
-            <h3> Lorem ipsum dolor sit amet ?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae, commodi. Similique, eos? Omnis dolorum saepe
-              architecto officia tempore atque optio cumque perspiciatis, maxime
-              sequi? Eos ipsam autem doloremque officiis possimus.Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit. Repudiandae,
-              commodi. Similique, eos? Omnis dolorum saepe architecto officia
-              tempore atque optio cumque perspiciatis, maxime sequi? Eos ipsam
-              autem doloremque officiis possimus.
-            </p>
-          </div>
-          <div className="home-page__blocks">
-            <div className="home-page__blocks__element">
+          <div className="home-page__container">
+            <div className="home-page__logo">
+              <img src={logo} alt="" />
+            </div>
+            <div className="home-page__details">
               <h3> Lorem ipsum dolor sit amet ?</h3>
-              <img src={icon1} alt="" />
-
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Repudiandae, commodi. Similique, eos? Omnis dolorum saepe
@@ -43,39 +28,61 @@ const HomePage = () => {
                 autem doloremque officiis possimus.
               </p>
             </div>
-            <div className="home-page__blocks__element">
-              <h3> Lorem ipsum dolor sit amet ?</h3>
-              <img src={icon2} alt="" />
+            <div className="home-page__blocks">
+              <div className="home-page__blocks__element">
+                <h3> Lorem ipsum dolor sit amet ?</h3>
+                <img src={icon1} alt="" />
 
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Repudiandae, commodi. Similique, eos? Omnis dolorum saepe
-                architecto officia tempore atque optio cumque perspiciatis,
-                maxime sequi? Eos ipsam autem doloremque officiis possimus.Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae,
-                commodi. Similique, eos? Omnis dolorum saepe architecto officia
-                tempore atque optio cumque perspiciatis, maxime sequi? Eos ipsam
-                autem doloremque officiis possimus.
-              </p>
-            </div>{" "}
-            <div className="home-page__blocks__element">
-              <h3> Lorem ipsum dolor sit amet ?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repudiandae, commodi. Similique, eos? Omnis dolorum saepe
+                  architecto officia tempore atque optio cumque perspiciatis,
+                  maxime sequi? Eos ipsam autem doloremque officiis
+                  possimus.Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit. Repudiandae, commodi. Similique, eos? Omnis dolorum
+                  saepe architecto officia tempore atque optio cumque
+                  perspiciatis, maxime sequi? Eos ipsam autem doloremque
+                  officiis possimus.
+                </p>
+              </div>
+              <div className="home-page__blocks__element">
+                <h3> Lorem ipsum dolor sit amet ?</h3>
+                <img src={icon2} alt="" />
 
-              <img src={icon3} alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repudiandae, commodi. Similique, eos? Omnis dolorum saepe
+                  architecto officia tempore atque optio cumque perspiciatis,
+                  maxime sequi? Eos ipsam autem doloremque officiis
+                  possimus.Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit. Repudiandae, commodi. Similique, eos? Omnis dolorum
+                  saepe architecto officia tempore atque optio cumque
+                  perspiciatis, maxime sequi? Eos ipsam autem doloremque
+                  officiis possimus.
+                </p>
+              </div>{" "}
+              <div className="home-page__blocks__element">
+                <h3> Lorem ipsum dolor sit amet ?</h3>
 
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Repudiandae, commodi. Similique, eos? Omnis dolorum saepe
-                architecto officia tempore atque optio cumque perspiciatis,
-                maxime sequi? Eos ipsam autem doloremque officiis possimus.Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae,
-                commodi. Similique, eos? Omnis dolorum saepe architecto officia
-                tempore atque optio cumque perspiciatis, maxime sequi? Eos ipsam
-                autem doloremque officiis possimus.
-              </p>
+                <img src={icon3} alt="" />
+
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repudiandae, commodi. Similique, eos? Omnis dolorum saepe
+                  architecto officia tempore atque optio cumque perspiciatis,
+                  maxime sequi? Eos ipsam autem doloremque officiis
+                  possimus.Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit. Repudiandae, commodi. Similique, eos? Omnis dolorum
+                  saepe architecto officia tempore atque optio cumque
+                  perspiciatis, maxime sequi? Eos ipsam autem doloremque
+                  officiis possimus.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="home-page__coppyright">Coppyright@2021</div>
+          <div className="home-page__coppyright">
+            <p>Coppyright @ 2021</p>
+          </div>
         </div>
       </div>
     </div>
